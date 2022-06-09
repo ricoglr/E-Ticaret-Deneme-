@@ -1,0 +1,103 @@
+.body{
+    background-image: url(resimler/resim1.jpg);
+}
+.anapanel{
+    background: rgba(255, 255, 255, 0.4);
+    width: 1100px;
+    height: 600px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: #ffffff;
+    position:fixed;
+    top: 50px;
+    right: 80px;
+}
+.loginpanel{
+    background: rgba(215, 0, 0, 0.41);
+    width: 300px;
+    height: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: #ff0000;
+    position:fixed;
+    top: 100px;
+    right: 750px;
+    text-align: center;
+    font-size: 21px;
+}
+.signuppanel{
+    background: rgba(215, 0, 0, 0.41);
+    width: 300px;
+    height: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: #ff0000;
+    position:fixed;
+    top: 100px;
+    right: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+*:focus{
+    outline: none;
+}
+.username{
+    background: #8f8f8f;
+    color: #ffcece;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+
+}
+.password{
+    background: #8f8f8f;
+    color: #ffcece;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+.loginbtn{
+    background: #ECECEC;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    color:#7f7f7f;
+    text-decoration: none;
+    text-shadow:0px 1px 0px #fff;
+    border:1px solid #e0e0e0;
+    width: 145px;
+    margin:0px auto;
+    margin-top:100px;
+    box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition:box-shadow 0.5s;
+}
+.mail{
+    background: #8f8f8f;
+    color: #ffcece;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+.signupbtn {
+    background: #ECECEC;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    color: #7f7f7f;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #fff;
+    border: 1px solid #e0e0e0;
+    width: 145px;
+    margin: 0px auto;
+    margin-top: 50px;
+    box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: box-shadow 0.5s;
+}
+
